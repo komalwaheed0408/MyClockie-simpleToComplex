@@ -9,3 +9,9 @@ Responsive Navbar with placeholder buttons for:
 Alarm
 Voice Assistant
 World Clock
+
+
+🛠️ Tech Stack:
+HTML5
+CSS3
+JavaScript (Vanilla)
