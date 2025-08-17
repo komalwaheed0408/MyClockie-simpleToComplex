@@ -15,15 +15,29 @@
       <button id="toggleFormat">Toggle 24/12</button>
       <button>Alarm</button>
       <button>Voice Assistant</button>
-      <button>World Clock</button>
     </div>
   </nav>
 
-  <!-- Clock -->
-  <main>
-    <div id="clock"></div>
-  </main>
+<main>
+  <!-- Local Time -->
+  <div class="local-time-container">
+    <h2>Your Local Time</h2>
+    <div id="clock" class="clock-display"></div>
+  </div>
 
-  <script src="script.js"></script>
+  <!-- Timezone Converter -->
+  <div class="timezone-converter">
+    <h2>See Time in Another Timezone</h2>
+    <label for="timezone">Choose a timezone:</label>
+    <select id="timezone">
+      <!-- JS will populate all timezones here dynamically -->
+    </select>
+    <p>Selected Time: <span id="timeOutput"></span></p>
+  </div>
+
+</main>
+
+
+<script src="script.js"></script>
 </body>
 </html>
